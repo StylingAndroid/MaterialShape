@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MaterialShape</string>
+    <string name="cut">Cut Corner</string>
+    <string name="theme">Theme</string>
+</resources>
