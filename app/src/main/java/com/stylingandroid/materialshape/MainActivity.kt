@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             ShapeAppearanceModel.builder()
                 .setAllCornerSizes(cornerSize)
                 .setTopLeftCorner(CutCornerTreatment())
+                .setBottomRightCorner(ConcaveRoundedCornerTreatment())
                 .setTopEdge(TriangleEdgeTreatment(cornerSize, true))
                 .setBottomEdge(TriangleEdgeTreatment(cornerSize, true))
                 .setLeftEdge(TriangleEdgeTreatment(cornerSize, false))
